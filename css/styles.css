@@ -1,0 +1,304 @@
+
+/** ------------- Global ------------- **/
+@font-face {
+  font-family: "London Between";
+  src: url('../fonts/london_between/LondonBetween.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  /**background-color: #EBB951;**/
+  background-color: #0F63A9;
+  max-width: 99%;
+  height: 100%;
+}
+
+
+h1 {
+  font-family: 'London Between';
+  color: white;
+}
+
+p {
+  font-family: 'London Between';
+  color: white;
+}
+
+a {
+  font-family: 'London Between';
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+li {
+  font-family: 'London Between';
+  font-size: 22px;
+  color: white;
+}
+
+
+footer {
+  text-align: center;
+  padding-top: 10%;
+}
+
+/** --- classes gerais ---**/
+
+.cabecalhoLogo {
+  text-align: center;
+  
+}
+
+.textDestaque {
+  text-align: center;
+  font-weight: bold;
+}
+
+.perguntas {
+  padding-left: 10%;
+}
+
+.menu {
+  text-align: center;
+  margin: 0;
+  padding: 3%;
+}
+
+.listmenu {
+    font-weight: bold;
+    list-style: none; 
+    padding: 0 3% 0 3%;
+    display: inline;
+}
+
+
+/** ------------- Celulares ------------- **/
+
+@media only screen and (max-width: 600px) {
+    .logo {
+      width: 90%;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    p {
+      padding-left: 2%;
+      padding-right: 2%;
+    }
+
+    .textDestaque {
+      font-size: 25px;
+    }
+
+/** Home - Fotos do espaço **/
+    .hospedagem {
+      text-align: center;
+    }
+
+    .fotosHotel {
+      padding: 1% 2%;
+      width: 70%;
+    }
+
+/** Home - Depoimentos **/
+  .divDepoimentos {
+    text-align: center;
+    padding-bottom: 3%;
+  }
+
+  .Depoimentos {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 40%;
+    padding: 1%;
+  }
+
+  .profilePic {
+    display: none;
+  }
+
+/** Página Agenda **/
+  .googleAgenda {
+      max-width: 99%;
+      text-align: center;
+  }
+ 
+/** Página FAQ **/
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+/** Página Sobre **/
+
+.fotoperfilrenata {
+  width: 99%;
+  text-align: center;
+}
+
+.ulFormacaoRenata {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+}
+
+/** ------------- Tablets ------------- **/
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    width: 30%;
+  }
+
+  p {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .textDestaque {
+    font-size: 30px;
+  }
+
+/** Home - Fotos do espaço **/
+  .hospedagem {
+    text-align: center;
+  }
+
+  .fotosHotel {
+    display: inline-block;
+    padding: 1% 2%;
+    max-width: 35%;
+  }
+
+ /** Home - Depoimentos **/
+  .divDepoimentos {
+    text-align: center;
+    padding-bottom: 3%;
+  }
+
+  .Depoimentos {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 18%;
+    max-height: 10%;
+    padding: 3%;
+  }
+
+  .profilePic {
+    max-width: 40%;
+  }
+
+/** Home - Feed Instagram **/
+
+  .picInstagram {
+  padding-left: 16%;
+  padding-right: 16%;
+  }
+
+/** Página Agenda **/
+  .googleAgenda {
+      max-width: 99%;
+      text-align: center;
+  }
+
+
+}
+
+/** ------------- Desktops ------------- **/
+
+@media only screen and (min-width: 992px) {
+  .logo {
+    width: 40%;
+  }
+
+  .logo, h1 {
+    display: inline-block;
+    padding-left: 1%;
+    padding-right: 1%;
+    vertical-align: middle;
+  }
+
+  .listmenu {
+    font-size: 22px;
+  }
+
+  .textDestaque {
+    font-size: 30px;
+  }
+
+  .textDescricao {
+    font-size: 20px;
+    padding: 1% 3%;
+  }
+
+  /** Home - Fotos do espaço **/
+  .hospedagem {
+    text-align: center;
+  }
+
+  .fotosHotel {
+    display: inline-block;
+    padding: 1% 2%;
+    width: 15%;
+    
+  }
+
+  /** Home - Depoimentos **/
+  .divDepoimentos {
+    text-align: center;
+    padding-bottom: 3%;
+  }
+
+  .profilePic {
+    max-width: 30%;
+  }
+
+  .Depoimentos {
+    display: inline-block;
+    max-width: 20%;
+    padding: 1%;
+  }
+
+  /** Home - Feed Instagram **/
+
+  .divInstagram {
+   text-align: center;
+   
+  }
+
+  .picInstagram {
+    display: inline-block;
+    vertical-align: top;
+    padding: 2%;
+    
+  }
+
+/** Página Agenda **/
+
+  .divAgenda {
+    text-align: center;
+  }
+
+/** Página Sobre **/
+
+.fotoperfilrenata {
+  width: 35%;
+  padding: 2%;
+  float: left;
+}
+
+.ulFormacaoRenata {
+  padding-left: 40%;
+}
+
+
+}
