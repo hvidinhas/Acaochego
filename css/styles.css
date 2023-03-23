@@ -43,11 +43,6 @@ li {
 }
 
 
-footer {
-  text-align: center;
-  padding-top: 10%;
-}
-
 /** --- classes gerais ---**/
 
 .cabecalhoLogo {
@@ -75,6 +70,14 @@ footer {
     list-style: none; 
     padding: 0 3% 0 3%;
     display: inline;
+}
+
+.dev-for {
+  max-width: 100%;
+  text-align: center;
+  font-size: 0.6em;
+  padding-top: 20%;
+
 }
 
 
