@@ -233,6 +233,11 @@ li {
     font-size: 22px;
   }
 
+  /* efeito hover na lista, através do atributo link*/
+  ul a:hover {
+    color: blueviolet;
+  }
+
   .textDestaque {
     font-size: 30px;
   }
