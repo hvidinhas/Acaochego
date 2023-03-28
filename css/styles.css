@@ -235,7 +235,8 @@ li {
 
   /* efeito hover na lista, através do atributo link*/
   ul a:hover {
-    color: blueviolet;
+    font-weight: bolder;
+    color: #022267;
   }
 
   .textDestaque {
