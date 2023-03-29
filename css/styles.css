@@ -38,7 +38,7 @@ ul {
 
 li {
   font-family: 'London Between';
-  font-size: 22px;
+  font-size: 18px;
   color: white;
 }
 
@@ -147,7 +147,7 @@ li {
 }
 
 .ulFormacaoRenata {
-  text-align: center;
+  text-align: left;
   margin: 0;
   padding: 0;
 }
@@ -315,24 +315,31 @@ li {
 
 /** Página Sobre **/
 
-.divSobre h1 {
+.divSobre {
+  display: table;
   padding-left: 2%;
 }
 
+.divNomeFoto {
+  display: table-cell;
+  width: 40%; 
+}
 .fotoperfilrenata {
-  width: 30%;
-  padding: 2%;
-  float: left;
+  width: 98%;
 }
 
-.ulFormacaoRenata {
-  padding-left: 20%;
+.divTextSobre {
+  display: table-cell;
+  vertical-align: bottom;
 }
-
 .texSobre {
   padding-top: 3%;
-  border: 2px solid green;
 }
-
+.ulFormacaoRenata {
+  padding-left: 2%;
+}
+.divTextSobre h1 {
+  padding-left: 2%;
+}
 
 }
